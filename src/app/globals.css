@@ -8,8 +8,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: "Google Sans", Arial, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +21,15 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Google Sans", Arial, sans-serif;
+}
+
+@layer utilities {
+  .text-dugri-heading {
+    @apply text-blue-950 font-bold tracking-tight;
+  }
+
+  .text-dugri-body {
+    @apply text-slate-600 leading-relaxed;
+  }
 }
