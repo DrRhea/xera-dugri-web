@@ -1,10 +1,8 @@
+import type { SupabaseClient } from "@supabase/supabase-js";
+
 export type DbProvider = "vercel_postgres" | "supabase";
 
 type NullableClient<T> = T | null;
-
-type SupabaseClient = {
-  from: (table: string) => { select: (query: string) => Promise<unknown> };
-};
 
 export const getVercelPostgresClient = async () => {
   try {
@@ -50,7 +48,7 @@ export const getRegistrationList = async (provider: DbProvider) => {
       return [];
     }
     const response = await supabase.from("registrations").select("*");
-    return response ?? [];
+    return response.data ?? [];
   } catch (error) {
     console.error("Registration fetch failed", error);
     return [];
