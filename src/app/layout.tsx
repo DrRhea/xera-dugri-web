@@ -5,6 +5,28 @@ export const metadata: Metadata = {
   title: "Duta Generasi Remaja Indonesia",
   description:
     "Profil resmi Duta Generasi Remaja Indonesia - Remaja Berkarya, Generasi Berdampak.",
+  metadataBase: new URL("https://dutagenerasiremaja.com"),
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-icon.png",
+  },
+  openGraph: {
+    title: "Duta Generasi Remaja Indonesia",
+    description:
+      "Profil resmi Duta Generasi Remaja Indonesia - Remaja Berkarya, Generasi Berdampak.",
+    url: "https://dutagenerasiremaja.com",
+    siteName: "Duta Generasi Remaja Indonesia",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Logo Duta Generasi Remaja Indonesia" }],
+    locale: "id_ID",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Duta Generasi Remaja Indonesia",
+    description:
+      "Profil resmi Duta Generasi Remaja Indonesia - Remaja Berkarya, Generasi Berdampak.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
