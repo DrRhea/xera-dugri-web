@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Instagram, Mail, Phone } from "lucide-react";
 import { siteData } from "@/lib/site-data";
 
 type SiteFooterProps = {
@@ -85,22 +86,25 @@ export const SiteFooter = ({
           </p>
           <a
             href={`mailto:${EMAIL}`}
-            className="block text-sm text-slate-700 transition hover:text-amber-600 hover:underline"
+            className="flex items-center gap-3 text-sm text-slate-700 transition hover:text-amber-600 hover:underline"
           >
+            <Mail className="h-4 w-4 shrink-0 text-slate-500" aria-hidden />
             {EMAIL}
           </a>
           <a
             href={`https://wa.me/${PHONE.replace(/\s/g, "").replace(/^\+/, "")}`}
-            className="block text-sm text-slate-700 transition hover:text-amber-600 hover:underline"
+            className="flex items-center gap-3 text-sm text-slate-700 transition hover:text-amber-600 hover:underline"
           >
+            <Phone className="h-4 w-4 shrink-0 text-slate-500" aria-hidden />
             {PHONE}
           </a>
           <a
             href={INSTAGRAM}
             target="_blank"
             rel="noopener noreferrer"
-            className="block text-sm text-slate-700 transition hover:text-amber-600 hover:underline"
+            className="flex items-center gap-3 text-sm text-slate-700 transition hover:text-amber-600 hover:underline"
           >
+            <Instagram className="h-4 w-4 shrink-0 text-slate-500" aria-hidden />
             Instagram @duta_dugri
           </a>
         </div>
