@@ -261,7 +261,7 @@ export default function TentangPage() {
             <ul className="mt-6 space-y-2 text-slate-700">
               <li><span className="text-slate-500">Bentuk</span> Commanditaire Vennootschap (CV)</li>
               <li><span className="text-slate-500">Bidang</span> Event Organizer dan Pengembangan Sumber Daya Remaja</li>
-              <li><span className="text-slate-500">AHU</span> AHU-0028774-AH.01.14 Tahun 2025</li>
+              <li><span className="text-slate-500">Nomor AHU</span> AHU-0028774-AH.01.14 Tahun 2025</li>
               <li><span className="text-slate-500">Alamat</span> Jl. H. Rais. A. Rachman Gg. Bukit Sebedang No.21, Sungai Jawi, Kec. Pontianak Kota, Kalimantan Barat</li>
               <li><a href="mailto:pesonaprestasiofficial@gmail.com" className="text-amber-600 hover:underline">pesonaprestasiofficial@gmail.com</a></li>
               <li><a href="https://pesonaprestasi.com" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline">pesonaprestasi.com</a></li>
