@@ -24,6 +24,15 @@ body {
   font-family: "Google Sans", Arial, sans-serif;
 }
 
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 @layer utilities {
   .text-dugri-heading {
     @apply text-blue-950 font-bold tracking-tight;
@@ -31,5 +40,9 @@ body {
 
   .text-dugri-body {
     @apply text-slate-600 leading-relaxed;
+  }
+
+  .animate-marquee {
+    animation: marquee 30s linear infinite;
   }
 }

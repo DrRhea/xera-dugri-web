@@ -7,10 +7,10 @@ export const siteData: SiteData = {
   slogan_text: "Suara Kita, Gerak Kita, & Berdampak Nyata",
   organizer_name: "CV. Pesona Prestasi Official",
   navigation_items: [
-    { label_text: "Beranda", href_url: "#beranda" },
-    { label_text: "Tentang", href_url: "#tentang" },
-    { label_text: "Program", href_url: "#program" },
-    { label_text: "Kontak", href_url: "#kontak" },
+    { label_text: "Beranda", href_url: "/" },
+    { label_text: "Tentang", href_url: "/tentang" },
+    { label_text: "Program", href_url: "/program" },
+    { label_text: "Kontak", href_url: "/kontak" },
   ],
   highlight_items: [
     {
