@@ -8,7 +8,7 @@ export function CtaSection() {
       id="daftar"
       className="flex min-h-screen w-full flex-col items-center justify-center bg-blue-950"
     >
-      <div className="px-8 text-center md:px-12">
+      <div className="px-6 py-14 text-center md:px-12 md:py-20">
         <h2 className="text-3xl font-bold tracking-tight text-white md:text-4xl lg:text-5xl">
           Siap Jadi Duta Generasi Remaja Indonesia?
         </h2>

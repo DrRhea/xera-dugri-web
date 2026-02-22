@@ -86,7 +86,7 @@ export function IntroSection() {
     >
       <div
         ref={contentRef}
-        className="mx-auto max-w-4xl px-8 text-center md:px-12 lg:px-16"
+        className="mx-auto max-w-4xl px-6 text-center md:px-12 lg:px-16"
         style={{ transform: `translateY(${parallaxY}px)` }}
       >
         <FocusBlock>

@@ -15,7 +15,7 @@ const TICKER_ITEMS = [
 
 export function MarqueeTicker() {
   return (
-    <div className="w-full overflow-hidden border-y border-slate-200 bg-white py-4">
+    <div className="w-full overflow-hidden border-y border-slate-200 bg-white py-5 md:py-6">
       <div className="flex w-max animate-marquee items-center gap-12 whitespace-nowrap">
         {[...TICKER_ITEMS, ...TICKER_ITEMS].map((item, i) => (
           <span

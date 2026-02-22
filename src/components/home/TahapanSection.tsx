@@ -20,7 +20,7 @@ export function TahapanSection() {
       id="program"
       className="grid min-h-screen w-full grid-cols-1 md:grid-cols-2"
     >
-      <div className="flex flex-col justify-center bg-slate-100 py-12 pl-8 pr-8 md:py-0 md:pl-12 md:pr-12 lg:pl-16 lg:pr-16">
+      <div className="flex flex-col justify-center bg-slate-100 py-12 pl-6 pr-6 md:py-0 md:pl-12 md:pr-12 lg:pl-16 lg:pr-16">
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-amber-600">
           Program
         </p>
@@ -31,7 +31,7 @@ export function TahapanSection() {
           Alur program dari pendaftaran hingga masa penugasan dan keberlanjutan.
         </p>
       </div>
-      <div className="flex flex-col justify-center bg-white py-12 pl-8 pr-8 md:py-0 md:pl-12 md:pr-12 lg:pl-16 lg:pr-16">
+      <div className="flex flex-col justify-center bg-white py-12 pl-6 pr-6 md:py-0 md:pl-12 md:pr-12 lg:pl-16 lg:pr-16">
         <ul className="space-y-8">
           {TAHAPAN.map(({ step, label, short }) => (
             <li key={step} className="flex gap-6">

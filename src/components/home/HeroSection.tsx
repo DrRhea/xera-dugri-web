@@ -1,8 +1,26 @@
+import Image from "next/image";
+
 export const HeroSection = () => (
   <section
     id="beranda"
     className="relative flex min-h-screen max-h-screen min-w-0 items-center justify-center overflow-hidden bg-blue-950"
   >
+    {/* Background image — darkened */}
+    <div className="absolute inset-0">
+      <Image
+        src="/winner/image2-2.png"
+        alt=""
+        fill
+        className="object-cover object-bottom brightness-[0.35]"
+        sizes="100vw"
+        priority
+      />
+    </div>
+    {/* Navy overlay */}
+    <div
+      className="absolute inset-0 bg-blue-950/70"
+      aria-hidden
+    />
     <div className="pointer-events-none absolute inset-0">
       <div className="absolute -left-24 top-10 h-64 w-64 rounded-full bg-amber-400/10 blur-3xl" />
       <div className="absolute -right-20 bottom-10 h-72 w-72 rounded-full bg-white/5 blur-3xl" />

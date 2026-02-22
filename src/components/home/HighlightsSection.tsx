@@ -8,7 +8,7 @@ export function HighlightsSection() {
     <section
       className="grid min-h-screen w-full grid-cols-1 md:grid-cols-2"
     >
-      <div className="flex flex-col justify-center bg-slate-50 pl-8 pr-8 md:pl-12 md:pr-12 lg:pl-16 lg:pr-16">
+      <div className="flex flex-col justify-center bg-slate-50 py-12 pl-6 pr-6 md:py-0 md:pl-12 md:pr-12 lg:pl-16 lg:pr-16">
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-amber-600">
           Nilai & Arah
         </p>
@@ -31,7 +31,7 @@ export function HighlightsSection() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col justify-center bg-white pl-8 pr-8 md:pl-12 md:pr-12 lg:pl-16 lg:pr-16">
+      <div className="flex flex-col justify-center bg-white py-12 pl-6 pr-6 md:py-0 md:pl-12 md:pr-12 lg:pl-16 lg:pr-16">
         <h2 className="text-2xl font-bold tracking-tight text-blue-950 md:text-3xl lg:text-4xl">
           Misi
         </h2>
