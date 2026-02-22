@@ -5,9 +5,20 @@ import { siteData } from "@/lib/site-data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Program | Duta Generasi Remaja Indonesia",
+  title: "Program",
   description:
-    "Tahapan pelaksanaan, persyaratan peserta, mekanisme seleksi, sistem penilaian, dan grand final program Duta Generasi Remaja Indonesia.",
+    "Tahapan pelaksanaan, persyaratan peserta, mekanisme seleksi, sistem penilaian, dan grand final program Duta Generasi Remaja Indonesia (DUGRI) 2026.",
+  alternates: { canonical: "https://dutagenerasiremaja.com/program" },
+  openGraph: {
+    title: "Program | Duta Generasi Remaja Indonesia",
+    description: "Tahapan, persyaratan, seleksi, dan grand final program DUGRI.",
+    url: "https://dutagenerasiremaja.com/program",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Program | Duta Generasi Remaja Indonesia",
+    description: "Tahapan dan persyaratan program DUGRI.",
+  },
 };
 
 const TAHAPAN = [

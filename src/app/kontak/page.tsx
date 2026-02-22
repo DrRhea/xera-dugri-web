@@ -5,9 +5,20 @@ import { siteData } from "@/lib/site-data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Kontak | Duta Generasi Remaja Indonesia",
+  title: "Kontak",
   description:
-    "Hubungi tim program Duta Generasi Remaja Indonesia dan CV. Pesona Prestasi Official.",
+    "Hubungi tim program Duta Generasi Remaja Indonesia (DUGRI) dan CV. Pesona Prestasi Official — email, WhatsApp, Instagram.",
+  alternates: { canonical: "https://dutagenerasiremaja.com/kontak" },
+  openGraph: {
+    title: "Kontak | Duta Generasi Remaja Indonesia",
+    description: "Hubungi tim DUGRI dan penyelenggara — email, WhatsApp, Instagram.",
+    url: "https://dutagenerasiremaja.com/kontak",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kontak | Duta Generasi Remaja Indonesia",
+    description: "Hubungi tim DUGRI dan penyelenggara.",
+  },
 };
 
 const PROGRAM_EMAIL = "dutagenerasiremajaindonesia@gmail.com";

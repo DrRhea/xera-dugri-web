@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/home/HeroSection";
 import { HighlightsSection } from "@/components/home/HighlightsSection";
 import { IntroSection } from "@/components/home/IntroSection";
 import { TahapanSection } from "@/components/home/TahapanSection";
+import { VideoSection } from "@/components/home/VideoSection";
 import { WinnerSection } from "@/components/home/WinnerSection";
 import { Navbar } from "@/components/layout/Navbar";
 import { MarqueeTicker } from "@/components/MarqueeTicker";
@@ -16,6 +17,7 @@ export default function Home() {
       <main className="w-full">
         <HeroSection />
         <IntroSection />
+        <VideoSection />
         <WinnerSection />
         <HighlightsSection />
         <TahapanSection />

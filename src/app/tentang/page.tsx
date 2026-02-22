@@ -6,9 +6,21 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tentang Duta Generasi Remaja Indonesia",
+  title: "Tentang",
   description:
-    "Sejarah, filosofi nama dan logo, visi, misi, nilai-nilai, serta identitas program Duta Generasi Remaja Indonesia.",
+    "Sejarah, filosofi nama dan logo, visi, misi, nilai-nilai, serta identitas program Duta Generasi Remaja Indonesia (DUGRI).",
+  alternates: { canonical: "https://dutagenerasiremaja.com/tentang" },
+  openGraph: {
+    title: "Tentang | Duta Generasi Remaja Indonesia",
+    description:
+      "Sejarah, filosofi nama dan logo, visi, misi, nilai-nilai, serta identitas program DUGRI.",
+    url: "https://dutagenerasiremaja.com/tentang",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tentang | Duta Generasi Remaja Indonesia",
+    description: "Sejarah, visi, misi, dan identitas program DUGRI.",
+  },
 };
 
 export default function TentangPage() {
