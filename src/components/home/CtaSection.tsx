@@ -1,14 +1,27 @@
+import Image from "next/image";
+
 /**
  * CtaSection – Ajakan daftar, info tahapan. ID #daftar dipakai untuk anchor.
- * Full viewport height, centered content.
+ * Full viewport height, centered content. Background: foto pemenang DUGRI.
  */
 export function CtaSection() {
   return (
     <section
       id="daftar"
-      className="flex min-h-screen w-full flex-col items-center justify-center bg-blue-950"
+      className="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-blue-950"
     >
-      <div className="px-6 py-14 text-center md:px-12 md:py-20">
+      <div className="absolute inset-0">
+        <Image
+          src="/winner/image1-2.png"
+          alt=""
+          fill
+          className="object-cover object-center brightness-[0.4]"
+          sizes="100vw"
+          priority={false}
+        />
+      </div>
+      <div className="absolute inset-0 bg-blue-950/70" aria-hidden />
+      <div className="relative z-10 px-6 py-14 text-center md:px-12 md:py-20">
         <h2 className="text-3xl font-bold tracking-tight text-white md:text-4xl lg:text-5xl">
           Siap Jadi Duta Generasi Remaja Indonesia?
         </h2>

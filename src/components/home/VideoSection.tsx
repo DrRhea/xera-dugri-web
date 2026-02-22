@@ -9,7 +9,7 @@ export function VideoSection() {
       aria-label="Video Winner Duta Generasi Remaja Indonesia"
     >
       {/* Kiri: judul + deskripsi — desktop kolom 1, mobile di atas video */}
-      <div className="flex flex-col justify-center p-0 m-0 md:px-12 md:py-16 lg:px-16 lg:py-20">
+      <div className="flex flex-col justify-center p-0 m-0 md:px-16 md:py-20 lg:px-24 lg:py-24">
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-amber-500 md:px-0">
           Video
         </p>
