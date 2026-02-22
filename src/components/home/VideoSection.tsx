@@ -8,9 +8,9 @@ export function VideoSection() {
       className="flex min-h-screen max-h-screen w-full flex-col overflow-y-auto bg-slate-900 p-0 m-0 md:grid md:grid-cols-2 md:grid-rows-1"
       aria-label="Video Winner Duta Generasi Remaja Indonesia"
     >
-      {/* Kiri: judul + deskripsi — desktop kolom 1, mobile di atas video */}
-      <div className="flex flex-col justify-center p-0 m-0 md:px-16 md:py-20 lg:px-24 lg:py-24">
-        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-amber-500 md:px-0">
+      {/* Kiri: judul + deskripsi — padding sama dengan kolom Program (TahapanSection) */}
+      <div className="flex flex-col justify-center py-12 pl-6 pr-6 md:py-0 md:pl-12 md:pr-12 lg:pl-16 lg:pr-16">
+        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-amber-500">
           Video
         </p>
         <h2 className="mt-2 text-2xl font-bold tracking-tight text-white md:text-3xl lg:text-4xl">
