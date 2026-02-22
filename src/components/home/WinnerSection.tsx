@@ -6,12 +6,11 @@ import { useCallback, useState } from "react";
 
 /**
  * WinnerSection – Carousel 2 kolom (kiri & kanan) dengan min-h-screen.
- * Slide 1: image1-1 (kiri), image1-2 (kanan).
- * Slide 2: image2-1 (kiri), image2-2 (kanan).
+ * Slide 1: cowo (image2-*). Slide 2: cewe (image1-*).
  */
 const SLIDES = [
-  { left: "/winner/image1-1.png", right: "/winner/image1-2.png" },
   { left: "/winner/image2-1.png", right: "/winner/image2-2.png" },
+  { left: "/winner/image1-1.png", right: "/winner/image1-2.png" },
 ] as const;
 
 export function WinnerSection() {
