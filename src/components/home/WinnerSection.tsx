@@ -31,12 +31,12 @@ export function WinnerSection() {
       id="winner"
       className="relative min-h-screen w-full overflow-hidden bg-slate-100 p-0 m-0"
     >
-      {/* Judul absolute, tidak makan space */}
+      {/* Judul absolute, tidak makan space — ukuran lebih besar agar kebaca */}
       <div className="absolute left-0 right-0 top-6 z-10 text-center md:top-8">
-        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-amber-600">
+        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-500 drop-shadow-sm md:text-base">
           Pemenang
         </p>
-        <h2 className="mt-2 text-xl font-bold tracking-tight text-blue-950 md:text-2xl">
+        <h2 className="mt-2 text-2xl font-bold tracking-tight text-blue-950 drop-shadow-sm md:text-3xl lg:text-4xl">
           Duta Generasi Remaja Indonesia
         </h2>
       </div>
