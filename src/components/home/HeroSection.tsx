@@ -11,7 +11,7 @@ export const HeroSection = () => (
         src="/winner/image2-2.png"
         alt=""
         fill
-        className="object-cover object-bottom brightness-[0.35]"
+        className="object-cover object-center brightness-[0.35]"
         sizes="100vw"
         priority
       />
